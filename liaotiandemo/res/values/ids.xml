@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="selected_view" type="id"/>
+    <item name="gd_segmented_bar" type="id"/>
+    <item name="gd_segmented_content_view" type="id"/>
+    <item name="gd_action_bar" type="id"/>
+    <item name="gd_action_bar_host" type="id"/>
+    <item name="gd_action_bar_content_view" type="id"/>
+    <item type="id" name="scrollview" />
+</resources>

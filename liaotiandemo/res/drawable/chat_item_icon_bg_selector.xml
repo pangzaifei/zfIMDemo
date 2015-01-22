@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- 点击表情的背景颜色== -->
+    <item android:drawable="@color/thirty_transparent_black" android:state_pressed="true"/>
+
+</selector>

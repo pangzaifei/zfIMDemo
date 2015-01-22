@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text_shadow_color">#66000000</color>
+
+    <drawable name="trans">@color/color_hei_8</drawable>
+
+    <color name="color_hei">#ff000000</color>
+    <color name="color_hei_8">#00000000</color>
+    <color name="color_cihei">#ff333333</color>
+    <color name="color_shenhui">#ff999999</color>
+    <color name="color_zhonghui">#ff798089</color>
+    <color name="color_qianhui">#ff888b8d</color>
+    <color name="color_zuiqianhui">#ffb4b4b4</color>
+    <color name="color_bai">#ffffffff</color>
+    <color name="color_bai_8">#ffffffff</color>
+    <color name="color_lan">#ff067bb1</color>
+    <color name="window_bg">#ffeef1f3</color>
+    <color name="title_bg">#ff54acea</color>
+    <color name="chat_background">@color/window_bg</color>
+    <color name="chat_title_name">@color/color_bai</color>
+    <color name="chat_text">@color/color_cihei</color>
+    <color name="chat_time">@color/color_bai</color>
+    <color name="chat_history_time_text">@color/color_shenhui</color>
+    <color name="screenshot_normal">#3f000000</color>
+    <color name="screenshot_pressed">#bf000000</color>
+    <color name="recent_msg">@color/color_zhonghui</color>
+    <color name="search_text">#ff929292</color>
+    <color name="search_cancel_text">#ff0e0e0e</color>
+    <color name="color_divider">#ffc9c9c9</color>
+    <color name="color_divider_for_contactlist_lower">#ffc2c8cd</color>
+    <color name="color_divider_for_trooplist">#ffc9c9c9</color>
+    <color name="color_divider_for_recentlist_upper">#ffadb4ba</color>
+    <color name="semi_transparent">#7f000000</color>
+    <color name="semi_transparent_w">#7fffffff</color>
+    <color name="sqqname">#ffee860a</color>
+    <color name="list_item_focus_for_troop">#ffe9eaeb</color>
+    <color name="list_item_focus_for_friendlist">#ffd3d7da</color>
+    <color name="list_contact_prompt_line">#ffc2c8cd</color>
+    <color name="thirty_transparent_black">#4d000000</color>
+    <color name="twenty_transparent_black">#33000000</color>
+    <color name="fifteen_trans_black">#26000000</color>
+    <color name="add_troop_member_bg">#ffdadfe2</color>
+    <color name="sc_transparent_background">@color/color_hei_8</color>
+    <color name="text_drag_refresh_big">@color/color_shenhui</color>
+    <color name="setting_bg">#ffe3e6e8</color>
+    <color name="emo_item_sel">#ff1f2124</color>
+    <color name="gray">#ff777777</color>
+    <color name="red">#ffff0000</color>
+    <color name="transparentpercent">#e5000000</color>
+    <color name="lightgray">#ff555555</color>
+    <color name="button_reply_normal">#ffffffff</color>
+    <color name="button_reply_pressed">#fffff8d0</color>
+    <color name="translucent_background">#5c000000</color>
+    <color name="text_nick_name">#ff333333</color>
+    <color name="text_comment">#ff6b6b6b</color>
+    <color name="shorttextColor">#ff8d8d8d</color>
+    <color name="comment_nick_name">#ff000000</color>
+    <color name="holo_blue">#FF33E5B5</color>
+
+    <!-- 相册begin -->
+    <color name="list_divider_color">#d1d1d1</color>
+    <color name="album_list_item_count_color">#bcbcbc</color>
+    <color name="user_portrait_bk">#20465A</color>
+    <color name="default_light_black_color">#424242</color>
+    <!-- 相册end -->
+
+    <color name="grey">#58616d</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="color_cyclingdate">#FF3300</color>
+    <color name="switchtextcolor">#FFFFFF</color>
+    <color name="orange">#ff3300</color>
+    <color name="titlbarBgColor">#181A1A</color>
+
+</resources>

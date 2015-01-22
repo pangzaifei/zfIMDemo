@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 聊天的face item -->
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/face_iv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/chat_item_icon_bg_selector"
+    android:padding="1dip" />

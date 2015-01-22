@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="46dip"
+    android:gravity="center_vertical"
+    android:padding="0.0px" >
+
+         <TextView android:id="@+id/tv_chat_title"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:text="聊天"
+             android:textSize="20sp"
+             android:textColor="#000000"
+             android:background="#ffffff"
+             android:gravity="center"
+             />
+
+    <TextView
+        android:id="@+id/ivTitleName"
+        style="@style/A1_Font"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingLeft="96.0dip"
+        android:paddingRight="96.0dip"
+        android:singleLine="true"
+            android:textSize="20sp"
+             android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/ivTitleBtnLeft"
+        style="@style/A3_Font"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/top_back_left_selector"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:maxWidth="96.0dip"
+        android:minWidth="68.0dip"
+        android:singleLine="true"
+        android:text="返回"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/ivTitleBtnRight"
+        style="@style/A3_Font"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/top_button_right_selector"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:maxWidth="96.0dip"
+        android:minWidth="68.0dip"
+        android:singleLine="true"
+        android:text="设置"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_title"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/defauleTitleHeight"
+    android:paddingLeft="@dimen/defauleTitleBtnPadding"
+    android:paddingRight="@dimen/defauleTitleBtnPadding"
+    android:gravity="center_vertical"
+    android:background="@color/titlbarBgColor" >
+
+    <FrameLayout
+        android:id="@+id/fl_title_left"
+        android:layout_width="@dimen/defauleTitleBtnWidth"
+        android:layout_height="@dimen/defauleTitleBtnHeight"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" >
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_title_right"
+        android:layout_width="@dimen/defauleTitleBtnWidth"
+        android:layout_height="@dimen/defauleTitleBtnHeight"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/fl_title_middle"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/defauleTitleHeight"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/fl_title_right"
+        android:layout_toRightOf="@+id/fl_title_left"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <bitmap
+            android:src="@drawable/cover_default_bg"
+            android:tileMode="repeat" />
+    </item>
+    <item android:top="10.0dip">
+        <bitmap
+            android:gravity="top|center"
+            android:src="@drawable/conversation_bg_logo" />
+    </item>
+
+</layer-list>

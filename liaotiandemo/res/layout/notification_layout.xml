@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:paddingBottom="4.0dip"
+    android:paddingLeft="4.0dip"
+    android:paddingRight="4.0dip"
+    android:paddingTop="4.0dip" >
+
+    <ImageView
+        android:id="@+id/notification_icon"
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:src="@drawable/ic_launcher"
+        android:scaleType="centerInside" />
+
+    <LinearLayout
+        android:id="@+id/general_notice"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="12.0dip"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/notification_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:gravity="center_vertical"
+            android:paddingLeft="4.0dip"
+            android:text="way"
+            android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Title" />
+
+        <TextView
+            android:id="@+id/notification_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:gravity="center_vertical"
+            android:paddingLeft="4.0dip"
+            android:text="new message"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.StatusBar.EventContent" />
+
+        <LinearLayout
+            android:id="@+id/notif_pro_bar_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone" >
+
+            <ProgressBar
+                android:id="@+id/notif_pro_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="5.0dip"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

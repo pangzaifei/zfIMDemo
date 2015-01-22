@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">在飞聊天Demo</string>
+    <string name="net_error_tip">当前网络不可用，请检查你的网络设置</string>
+    <!-- 上拉下拉 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">释放立即刷新</string>
+    <string name="xlistview_header_hint_loading">正在刷新...</string>
+    <string name="xlistview_header_last_time">上次更新：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="press_again_backrun">再按一次后台运行</string>
+    <string name="press_again_exit">再按一次退出应用</string>
+    <string name="app_is_run_background">在飞聊天Demo正在后台运行</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+
+    <!-- 相册begin -->
+    <string name="preview">预览</string>
+    <string name="cancel">取消</string>
+    <string name="send">发送</string>
+    <string name="unavailable_image_file">该文件已损坏</string>
+    <string name="need_choose_images">请选择图片～</string>
+    <string name="album">相册</string>
+    <string name="album_empty">相册中没有图片</string>
+    <!-- 相册end -->
+
+</resources>

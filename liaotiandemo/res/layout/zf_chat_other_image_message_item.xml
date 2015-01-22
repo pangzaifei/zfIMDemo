@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:paddingBottom="6.0dip"
+    android:paddingLeft="10.0dip"
+    android:paddingRight="10.0dip"
+    android:paddingTop="6.0dip" >
+
+    <TextView
+        android:id="@+id/datetime"
+        style="@style/G1_Font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginTop="8.0dip"
+        android:background="@drawable/chat_time_block"
+        android:gravity="center_vertical"
+        android:paddingLeft="8.0dip"
+        android:paddingRight="8.0dip"
+        android:text="11:11"
+        android:textColor="@color/chat_time"
+        android:textSize="10.0sp"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/datetime"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:background="@drawable/chat_tool_camera"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/chat_item_icon_bg_selector" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/datetime"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/icon"
+            android:background="@drawable/balloon_l_selector"
+            android:clickable="true"
+            android:minHeight="44.0dip" >
+
+            <!--
+                 <com.pzf.liaotian.view.GifTextView
+                android:id="@+id/textView2"
+                style="@style/B5_Font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:maxWidth="250dp"
+                android:textColor="@color/color_hei"
+                android:textSize="16.0sp" />
+            -->
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="7.0dip"
+                android:layout_alignBottom="@id/textView2"
+                android:layout_alignLeft="@id/textView2"
+                android:layout_alignRight="@id/textView2"
+                android:layout_marginBottom="3.0dip"
+                android:layout_marginLeft="4.0dip"
+                android:layout_marginRight="4.0dip"
+                android:max="100"
+                android:progressDrawable="@drawable/progress_receivepic" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_voice_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="left|center"
+            android:lineSpacingExtra="2dp"
+            android:minHeight="50dp"
+            android:textColor="#ff000000"
+            android:textSize="15sp" />
+
+        <!--
+               <ImageView 
+            android:id="@+id/iv_chart_item_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_launcher"
+            android:visibility="gone"
+            />
+        -->
+        <!-- 图片 -->
+
+        <FrameLayout
+            android:id="@+id/message_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/iv_chart_item_photo"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/zf_default_message_image" />
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>
