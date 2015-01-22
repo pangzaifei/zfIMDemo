@@ -25,7 +25,7 @@ import com.pzf.liaotian.PickPhotoActivity;
  * @date: 2014年11月13日 下午5:35:08
  * @blog:http://blog.csdn.net/pangzaifei
  * @github:https://github.com/pangzaifei/zfIMDemo
- * @qq:1160380990
+ * @qq:1660380990
  * @email:pzfpang451@163.com
  */
 public class BitmapCache extends Activity {

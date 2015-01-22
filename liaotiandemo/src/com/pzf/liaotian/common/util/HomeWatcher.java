@@ -10,7 +10,7 @@ import android.content.IntentFilter;
  * @author:pangzf
  * @blog:http://blog.csdn.net/pangzaifei
  * @github:https://github.com/pangzaifei/zfIMDemo
- * @qq:1160380990
+ * @qq:1660380990
  * @email:pzfpang451@163.com 
  */
 public class HomeWatcher {

@@ -15,7 +15,7 @@ import com.pzf.liaotian.bean.RecentItem;
  * @date: 2015年1月21日 下午4:32:39
  * @blog:http://blog.csdn.net/pangzaifei
  * @github:https://github.com/pangzaifei/zfIMDemo
- * @qq:1160380990
+ * @qq:1660380990
  * @email:pzfpang451@163.com 
  */
 public class RecentDB {

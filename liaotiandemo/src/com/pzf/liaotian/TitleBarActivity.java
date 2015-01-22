@@ -11,7 +11,7 @@ import com.pzf.liaotian.view.TitleBar;
  * @date: 2015年1月22日 上午11:05:52
  * @blog:http://blog.csdn.net/pangzaifei
  * @github:https://github.com/pangzaifei/zfIMDemo
- * @qq:1160380990
+ * @qq:1660380990
  * @email:pzfpang451@163.com
  */
 public abstract class TitleBarActivity extends BaseActivity implements

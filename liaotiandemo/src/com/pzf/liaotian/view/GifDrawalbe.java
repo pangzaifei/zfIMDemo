@@ -10,7 +10,7 @@ import android.graphics.drawable.BitmapDrawable;
  * @date: 2014年11月4日 上午10:31:33
  * @blog:http://blog.csdn.net/pangzaifei
  * @github:https://github.com/pangzaifei/zfIMDemo
- * @qq:1160380990
+ * @qq:1660380990
  * @email:pzfpang451@163.com 
  */
 public class GifDrawalbe extends AnimationDrawable {

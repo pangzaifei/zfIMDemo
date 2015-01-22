@@ -8,7 +8,7 @@ import java.util.List;
  * @date: 2014年11月12日 下午3:18:13
  * @blog:http://blog.csdn.net/pangzaifei
  * @github:https://github.com/pangzaifei/zfIMDemo
- * @qq:1160380990
+ * @qq:1660380990
  * @email:pzfpang451@163.com 
  */
 public class ImageBucket extends BaseData{

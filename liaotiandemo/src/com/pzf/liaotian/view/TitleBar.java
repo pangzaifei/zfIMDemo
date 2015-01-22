@@ -16,7 +16,7 @@ import com.pzf.liaotian.R;
  * @date: 2015年1月22日 下午5:52:36
  * @blog:http://blog.csdn.net/pangzaifei
  * @github:https://github.com/pangzaifei/zfIMDemo
- * @qq:1160380990
+ * @qq:1660380990
  * @email:pzfpang451@163.com 
  */
 public class TitleBar extends FrameLayout implements
