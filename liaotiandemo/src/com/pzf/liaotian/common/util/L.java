@@ -5,7 +5,7 @@ import android.util.Log;
 /**
  * @descLog统一管理类
  * @author:pangzf
- * @blog:http://blog.csdn.net/pangzaifei
+ * @blog:http://blog.csdn.net/pangzaifei/article/details/43023625
  * @github:https://github.com/pangzaifei/zfIMDemo
  * @qq:1660380990
  */

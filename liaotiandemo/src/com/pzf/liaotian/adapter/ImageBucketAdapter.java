@@ -15,7 +15,7 @@ import com.pzf.liaotian.itemview.PickPhotoSingleTypeView;
  * @desc:图集adapter
  * @author: pangzf
  * @date: 2015年1月22日 上午11:06:34
- * @blog:http://blog.csdn.net/pangzaifei
+ * @blog:http://blog.csdn.net/pangzaifei/article/details/43023625
  * @github:https://github.com/pangzaifei/zfIMDemo
  * @qq:1660380990
  * @email:pzfpang451@163.com

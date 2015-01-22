@@ -14,7 +14,7 @@
 	这样的好处是可以分别处理，易于管理。不会让adapter的代码过于复杂。
 	（例如相册界面可以看ImageGridSingleTypeView.java,PickPhotoSingleTypeView.java，ImageGridAdapter.java,ImageBucketAdapter.java）
 有问题可以联系：
- @blog:http://blog.csdn.net/pangzaifei
+ @blog:http://blog.csdn.net/pangzaifei/article/details/43023625
  @github:https://github.com/pangzaifei/zfIMDemo
  @qq:1660380990
  @email:pzfpang451@163.com

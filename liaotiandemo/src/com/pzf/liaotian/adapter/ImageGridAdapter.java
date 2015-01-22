@@ -14,7 +14,7 @@ import com.pzf.liaotian.itemview.ImageGridSingleTypeView;
  * @desc:图片展示gridview的adapter
  * @author: pangzf
  * @date: 2014年11月13日 下午5:34:56
- * @blog:http://blog.csdn.net/pangzaifei
+ * @blog:http://blog.csdn.net/pangzaifei/article/details/43023625
  * @github:https://github.com/pangzaifei/zfIMDemo
  * @qq:1660380990
  * @email:pzfpang451@163.com

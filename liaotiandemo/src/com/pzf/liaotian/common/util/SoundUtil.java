@@ -17,7 +17,7 @@ import com.pzf.liaotian.app.PushApplication;
  * @desc:声音工具类，包括录音，播放录音等
  * @author: pangzf
  * @date: 2014年11月5日 下午2:50:35
- * @blog:http://blog.csdn.net/pangzaifei
+ * @blog:http://blog.csdn.net/pangzaifei/article/details/43023625
  * @github:https://github.com/pangzaifei/zfIMDemo
  * @qq:1660380990
  * @email:pzfpang451@163.com 

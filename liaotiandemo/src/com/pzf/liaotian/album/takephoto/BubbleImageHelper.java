@@ -15,7 +15,7 @@ import android.graphics.Rect;
  * @desc:合成图片
  * @author: pangzf
  * @date: 2014年11月12日 下午3:36:46
- * @blog:http://blog.csdn.net/pangzaifei
+ * @blog:http://blog.csdn.net/pangzaifei/article/details/43023625
  * @github:https://github.com/pangzaifei/zfIMDemo
  * @qq:1660380990
  * @email:pzfpang451@163.com

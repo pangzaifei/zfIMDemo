@@ -15,7 +15,7 @@ import com.pzf.liaotian.bean.album.ImageItem;
  * @desc:相册的gridview中的itemview
  * @author: pangzf
  * @date: 2015年1月9日 下午2:17:26
- * @blog:http://blog.csdn.net/pangzaifei
+ * @blog:http://blog.csdn.net/pangzaifei/article/details/43023625
  * @github:https://github.com/pangzaifei/zfIMDemo
  * @qq:1660380990
  * @email:pzfpang451@163.com 

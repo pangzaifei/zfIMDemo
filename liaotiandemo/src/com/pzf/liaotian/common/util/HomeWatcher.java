@@ -8,7 +8,7 @@ import android.content.IntentFilter;
 /**
  * @desc:Home键监听封装
  * @author:pangzf
- * @blog:http://blog.csdn.net/pangzaifei
+ * @blog:http://blog.csdn.net/pangzaifei/article/details/43023625
  * @github:https://github.com/pangzaifei/zfIMDemo
  * @qq:1660380990
  * @email:pzfpang451@163.com 

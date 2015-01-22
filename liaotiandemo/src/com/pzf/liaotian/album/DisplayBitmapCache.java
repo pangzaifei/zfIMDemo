@@ -11,7 +11,7 @@ import com.pzf.liaotian.bean.album.ImageTool;
  * @desc:用于预览相关图片缓存
  * @author: pangzf
  * @date: 2014年11月13日 下午5:35:17
- * @blog:http://blog.csdn.net/pangzaifei
+ * @blog:http://blog.csdn.net/pangzaifei/article/details/43023625
  * @github:https://github.com/pangzaifei/zfIMDemo
  * @qq:1660380990
  * @email:pzfpang451@163.com

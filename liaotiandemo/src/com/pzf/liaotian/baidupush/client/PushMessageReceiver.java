@@ -35,7 +35,7 @@ import com.pzf.liaotian.common.util.T;
 /**
  * 接收到信息，进行解析
  * @author pangzf
- * @blog:http://blog.csdn.net/pangzaifei
+ * @blog:http://blog.csdn.net/pangzaifei/article/details/43023625
  * @github:https://github.com/pangzaifei/zfIMDemo
  * @qq:1660380990
  * @email:pzfpang451@163.com 

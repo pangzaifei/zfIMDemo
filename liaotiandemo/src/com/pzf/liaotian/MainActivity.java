@@ -88,7 +88,7 @@ import com.pzf.liaotian.xlistview.MsgListView.IXListViewListener;
  * @desc: 聊天界面主Activity
  * @author: pangzf
  * @date: 2014年11月3日 上午11:05:33
- * @blog:http://blog.csdn.net/pangzaifei
+ * @blog:http://blog.csdn.net/pangzaifei/article/details/43023625
  * @github:https://github.com/pangzaifei/zfIMDemo
  * @qq:1660380990
  * @email:pzfpang451@163.com

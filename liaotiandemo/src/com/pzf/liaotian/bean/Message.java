@@ -11,7 +11,7 @@ import com.pzf.liaotian.common.util.SharePreferenceUtil;
  * @desc:百度push的消息体
  * @author: pangzf
  * @date: 2015年1月22日 上午11:08:02
- * @blog:http://blog.csdn.net/pangzaifei
+ * @blog:http://blog.csdn.net/pangzaifei/article/details/43023625
  * @github:https://github.com/pangzaifei/zfIMDemo
  * @qq:1660380990
  * @email:pzfpang451@163.com 

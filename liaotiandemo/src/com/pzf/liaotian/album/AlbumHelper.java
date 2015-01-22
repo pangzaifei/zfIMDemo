@@ -23,7 +23,7 @@ import com.pzf.liaotian.bean.album.ImageItem;
  * @desc:相册相关处理
  * @author: pangzf
  * @date: 2014年11月12日 下午3:17:45
- * @blog:http://blog.csdn.net/pangzaifei
+ * @blog:http://blog.csdn.net/pangzaifei/article/details/43023625
  * @github:https://github.com/pangzaifei/zfIMDemo
  * @qq:1660380990
  * @email:pzfpang451@163.com
