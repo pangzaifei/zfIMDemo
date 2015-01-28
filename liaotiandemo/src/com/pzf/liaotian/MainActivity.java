@@ -779,7 +779,7 @@ public class MainActivity extends Activity implements OnClickListener,
                         MessageItem.MESSAGE_TYPE_TEXT,
                         System.currentTimeMillis(), msg, "", 0);
                 if ("".equals(mSpUtil.getUserId())) {
-                    Log.e("fff", "用户id为空");
+                    T.show(MainActivity.this, "百度push id为空，不能发送消息,请到百度开发者官网生成新的push key，替换", 1);
                     return;
                 }
                 new SendMsgAsyncTask(mGson.toJson(msgItem), mSpUtil.getUserId())

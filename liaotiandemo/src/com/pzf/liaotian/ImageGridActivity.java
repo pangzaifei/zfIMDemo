@@ -36,6 +36,7 @@ import com.pzf.liaotian.bean.RecentItem;
 import com.pzf.liaotian.bean.album.ImageItem;
 import com.pzf.liaotian.common.util.SendMsgAsyncTask;
 import com.pzf.liaotian.common.util.SharePreferenceUtil;
+import com.pzf.liaotian.common.util.T;
 import com.pzf.liaotian.config.ConstantKeys;
 import com.pzf.liaotian.db.MessageDB;
 import com.pzf.liaotian.db.RecentDB;
@@ -192,7 +193,8 @@ public class ImageGridActivity extends TitleBarActivity implements
                     messageAdapter.upDateMsgByList(messageItemList);
                 }
                 if ("".equals(mSpUtil.getUserId())) {
-                    Log.e("fff", "用户id为空2");
+//                    Log.e("fff", "用户id为空2");
+                    T.show(ImageGridActivity.this, "注册百度push用户失败，不能将消息发送出去", 1);
                     return;
                 }
                 // 发送push

@@ -14,6 +14,7 @@ import android.content.Intent;
 import android.os.Handler;
 import android.text.TextUtils;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.baidu.android.pushservice.PushConstants;
 import com.baidu.android.pushservice.PushManager;
@@ -76,7 +77,7 @@ public class PushMessageReceiver extends BroadcastReceiver {
             try {
                 Message msgItem = PushApplication.getInstance().getGson()
                         .fromJson(message, Message.class);
-                parseMessage(msgItem);// 预处理，过滤一些消息，比如说新人问候或自己发送的
+                parseMessage(msgItem,context);// 预处理，过滤一些消息，比如说新人问候或自己发送的
             } catch (Exception e) {
                 // TODO: handle exception
             }
@@ -130,8 +131,9 @@ public class PushMessageReceiver extends BroadcastReceiver {
      * 解析message
      * 
      * @param msg
+     * @param context 
      */
-    private void parseMessage(Message msg) {
+    private void parseMessage(Message msg, Context context) {
         Gson gson = PushApplication.getInstance().getGson();
         // Message msg = gson.fromJson(message, Message.class);
         L.i("gson ====" + msg.toString());
@@ -170,7 +172,8 @@ public class PushMessageReceiver extends BroadcastReceiver {
                         System.currentTimeMillis(), "hi",
                         PushMessageReceiver.RESPONSE, 0);
                 if ("".equals(mSpUtil.getUserId())) {
-                    Log.e("fff", "用户id为空1");
+                    T.show(context, "百度push id为空，不能发送消息,请到百度开发者官网生成新的push key，替换", 1);
+//                    Log.e("fff", "用户id为空1");
                     return;
                 }
                 new SendMsgAsyncTask(gson.toJson(item), userId).send();// 同时也回一条消息给对方1
